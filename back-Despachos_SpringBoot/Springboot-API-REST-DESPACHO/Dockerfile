@@ -8,5 +8,5 @@ RUN mvn clean package -DskipTests
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY --from=builder /app/target/*.jar api-despachos.jar
-EXPOSE 8080
+EXPOSE 8082
 ENTRYPOINT ["java", "-jar", "api-despachos.jar"]
