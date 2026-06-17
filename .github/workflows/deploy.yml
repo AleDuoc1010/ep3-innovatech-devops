@@ -5,7 +5,7 @@ on:
     branches: [ "main" ] # Se ejecuta cada vez que subes código a la rama main
 
 env:
-  AWS_REGION: us-east-1 # Cambia esto si usaste otra región en AWS (ej. us-east-2)
+  AWS_REGION: us-east-2 # Cambia esto si usaste otra región en AWS (ej. us-east-2)
 
 jobs:
   build-and-push:
